@@ -1,0 +1,25 @@
+.editTodoForm{
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(228, 68, 100);
+    width: 300px;
+    padding: .5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.btnContainer{
+    display: flex;
+    gap: .3rem;
+}
+
+.editInput{
+    width: 200px;
+}
+
+.editBtn{
+    font-size: 1.5rem;
+}
+

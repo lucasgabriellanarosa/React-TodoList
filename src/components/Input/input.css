@@ -1,0 +1,26 @@
+.form-container{
+    display: flex;
+    gap: .5rem;
+}
+
+.input{
+    padding: .3rem .5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    outline: none;
+}
+.input:focus{
+    box-shadow: 0 0 0 100000px rgba(0,0,0,.2);
+}
+
+.submitBtn{
+    background-color: rgb(243, 199, 214);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+.submitBtn:hover{
+    cursor: pointer;
+    scale: 1.05;
+}

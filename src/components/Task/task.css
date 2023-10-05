@@ -1,0 +1,31 @@
+.task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(228, 68, 100);
+    width: 300px;
+    padding: .5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: 0 0 15px rgba(32, 32, 32, 0.63);
+}
+.task:hover{
+    scale: 1.03;
+    box-shadow: 0 0 15px rgb(32, 32, 32);
+}
+.task.completed{
+    background-color: lightgreen;
+}
+
+.btnContainer{
+    display: flex;
+    gap: .3rem;
+}
+
+.todoBtn{
+    font-size: 1.3rem;
+}
+.todoBtn:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
